@@ -1,0 +1,115 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Josefin Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Protest Revolution', sans-serif;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #FF6464 ;
+}
+
+.green {
+  background-color: #38E54D;
+}
+
+.blue {
+  background-color: #00A9FF;
+}
+
+.yellow {
+  background-color: #FDFF00;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+
+
+
+@media(max-width: 600px){
+  .btn{
+    height: 100px;
+    width: 200px;
+    margin: 5px;
+  }
+  .videoTape{
+    width: 500px;
+    height: 250px;
+  }
+}
+
+.credits{
+  color: white;
+  font-size: 30px;
+  
+}
+.ActualTitle{
+  color: white;
+  font-family: 'Single Day', cursive;
+  font-weight: 10000;
+  font-size: 6rem;
+  margin-top: 5px;
+}
+
+.oddOne{
+  color: aqua;
+}
+
+.help{
+  color: white;
+  font-family: 'Single Day', cursive;
+}
+#helpBtn{
+  background-color: #00A9FF;
+  display: inline-block;
+  width: 100px;
+  height: 75px;
+  border: 2px white solid;
+  border-radius: 30%;
+}
+.Tmargin{
+  margin-top: 50px;
+}
+li{
+  text-align: left;
+  color: white;
+  font-family: 'Single Day', cursive;
+  margin-bottom: 20px;
+}
+.videoTape{
+  width: 400px;
+  height: 250px;
+  border: 2px solid white;
+}
+
